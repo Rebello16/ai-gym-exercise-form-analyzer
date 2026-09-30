@@ -1,0 +1,8 @@
+# Python 3.11+ (developed and tested on Python 3.14, Windows 11, CPU only)
+mediapipe>=0.10.14          # Pose Landmarker (Tasks API); pulls in opencv-contrib-python
+opencv-contrib-python>=4.8  # the cv2 build mediapipe depends on (don't also install opencv-python)
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+streamlit>=1.50
+pytest>=8.0

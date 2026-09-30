@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache / tooling
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Videos and generated output (demo clips are rendered on first use)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+outputs/
+data/sample/
+
+# Pose model: downloaded automatically on first use (utils/helpers.ensure_pose_model)
+models/*.task
+
+# Local knowledge-graph output
+graphify-out/
