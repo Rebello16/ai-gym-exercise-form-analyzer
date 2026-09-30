@@ -1,0 +1,30 @@
+[server]
+# Local-only by default: the app can open your webcam, so don't expose it to the network.
+address = "localhost"
+maxUploadSize = 500
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# FORM/AI visual system: near-black surfaces, one coral-red accent,
+# Archivo (display) / IBM Plex Sans (UI) / IBM Plex Mono (telemetry).
+[theme]
+base = "dark"
+primaryColor = "#F4513C"
+backgroundColor = "#0C0C0D"
+secondaryBackgroundColor = "#17171A"
+textColor = "#EDECE8"
+borderColor = "#2A2A2E"
+showWidgetBorder = true
+baseRadius = "4px"
+linkColor = "#F4513C"
+redColor = "#F4513C"
+greenColor = "#55C08A"
+yellowColor = "#E7B24A"
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+headingFont = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+chartCategoricalColors = ["#EDECE8", "#F4513C", "#8A8882", "#E7B24A", "#55C08A"]
